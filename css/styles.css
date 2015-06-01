@@ -66,7 +66,8 @@ header {
 	display: inline-block; 
 	width: 60%;
 	padding: 0.2em;
-	margin-bottom: 2em;
+	margin-top: 4em;
+	margin-bottom: 8em;
 	font-family: Lato;
 	font-weight: 400;
 	font-size: 1.8em;
@@ -113,42 +114,30 @@ header {
 
 #q1 {
 	display: none;
-	margin-bottom: 8em;
 }
-
 
 #q2 {
 	display: none;
-	margin-bottom: 8em;
 }
 
 #q3 {
 	display: none;
-	margin-bottom: 8em;
 }
 
 #q4 {
 	display: none;
-	padding-top: 2em;
-	padding-bottom: 2em;
 }
 
 #q5 {
 	display: none;
-	padding-top: 2em;
-	padding-bottom: 2em;
 }
 
 #q6 {
 	display: none;
-	margin-top: 2em;
-	margin-bottom: 2em;
 }
 
 #q7 {
 	display: none;
-	margin-top: 2em;
-	margin-bottom: 2em;
 }
 
 #q8 {
@@ -165,20 +154,14 @@ header {
 
 #q11 {
 	display: none;
-	margin-top: 2em;
-	margin-bottom: 2em;
 }
 
 #q12 {
 	display: none;
-	margin-top: 2em;
-	margin-bottom: 2em;
 }
 
 #q13 {
 	display: none;
-	margin-top: 2em;
-	margin-bottom: 2em;
 }
 
 #resultN {
@@ -187,6 +170,7 @@ header {
 
 #resultY {
 	display: none;
+
 }
 
 
@@ -194,10 +178,10 @@ header {
 .result {
 	background: rgba(81, 80, 95, 0.5);
 	display: inline-block; 
-	width: 75%;
-	padding: 0.2em;
-	margin-top: 8em;
-	margin-bottom: 3em;
+	width: 70%;
+	padding: 2em;
+	margin-top: 4em;
+	margin-bottom: 2em;
 	font-family: Lato;
 	font-weight: 400;
 	font-size: 1.7em;
@@ -207,7 +191,11 @@ header {
 .result p {
 	font-family: Lato;
 	font-weight: 300;
-	font-size: 1.5em;
+	font-size: 0.8em;
+}
+
+.result a {
+	color: #A9C2FC;
 }
 
 footer {
@@ -219,5 +207,71 @@ footer {
 }
 
 footer a {
-	color: white;
+	color: #A9C2FC;
+}
+
+@media screen and (max-width: 900px) {
+ 
+header {
+	font-size: 26px;
+}
+
+.start {
+	font-size: 1.2em;
+}
+
+.startbutton {
+	display: inline-block;
+	padding: 0.5em;
+	margin: 1em;
+	width: 20%;
+	font-family: Lato;
+	font-weight: 400;
+	color: black;
+	font-size: 0.8em;
+}
+
+.question {
+	background-color: transparent;
+	display: inline-block; 
+	width: 60%;
+	padding: 0.2em;
+	margin-bottom: 1em;
+	font-size: 1.2em;
+}
+
+.yes {
+	display: inline-block;
+	float: center;
+	padding: 0.5em;
+	width: 30%;
+	font-family: Lato;
+	font-weight: 400;
+	color: black;
+	font-size: 0.8em;
+}
+
+.no {
+	display: inline-block;
+	float: center;
+	padding: 0.5em;
+	width: 30%;
+	font-family: Lato;
+	font-weight: 400;
+	color: black;
+	font-size: 0.8em;
+}
+
+.result {
+	margin-top: 4em;
+	margin-bottom: 1em;
+	font-size: 1.2em;
+}
+
+.result p {
+	font-family: Lato;
+	font-weight: 300;
+	font-size: 0.7em;
+}
+
 }
